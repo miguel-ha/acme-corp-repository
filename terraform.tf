@@ -6,7 +6,7 @@ terraform {
     workspaces {
       name = "acme-corp-dev"
     }
-  }
+  } 
 
   required_providers {
     aws = {
