@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
+/*   cloud {
     organization = "acme-corp-lab"
 
     workspaces {
       name = "acme-corp-dev"
     }
-  } 
+  }  */
 
   required_providers {
     aws = {
